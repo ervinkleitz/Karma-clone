@@ -1,0 +1,13 @@
+.navbar {
+	background-color: #fff;
+}
+.navbar > .content {
+	height: 71px;
+	width: 970px;
+	margin: 0 auto;
+	padding-left: 1.5rem;
+	border: 1px solid red;
+}
+.link {
+	float: right;
+	display: inline-block;
