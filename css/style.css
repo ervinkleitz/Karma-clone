@@ -43,6 +43,9 @@ ol, ul {
 /* End of Reset */
 .navbar {
     background-color: #fff;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
 }
 .navbar > .content {
     margin: 0 auto;
@@ -82,7 +85,7 @@ ol, ul {
     background-image: url("../images/first-background.jpg");
 	height: 45.938rem;
 	background-repeat: no-repeat;
-	background-position: bottom center;
+	background-position: 0 bottom;
 	background-size: cover;
 }
 .intro .content {
@@ -92,7 +95,6 @@ ol, ul {
 	font-weight: 300;
 	height: 173px;
 	padding: 17.5rem;
-	width: 700px;
 }
 .intro .content h1 {
 	text-align: center;
