@@ -41,25 +41,35 @@ ol, ul {
     list-style: none;
 }
 /* End of Reset */
-
 .navbar {
-	background-color: #fff;
-	display: block;
+    background-color: #fff;
 }
 .navbar > .content {
-	height: 71px;
-	width: 970px;
-	margin: 0 auto;
-	padding: 0px 20px;
-	border: 1px solid red;
-	min-width: 508px;
+    margin: 0 auto;
+    width: 700px;
+    height: 70px;
+    padding-left: 1rem;
 }
-img {float: left;}
-.content > li {
-	padding: 1.7rem 1rem;
-	display: inline-block;
+.navbar > .logo {
+    height: 70px;
 }
-
-ul {
-	float: right;
+.navbar .links {
+    float: right;
+    font-family: 'Roboto', sans-serif;
+    color: #838994;
+    font-size: 17px;
+    margin-top: 25px;
+    -webkit-font-smoothing: antialiased;
+}
+.navbar .links li {
+    display: inline-block;
+    margin-left: 25px;
+}
+.navbar .links .active {
+    color: #4c5058;
+    font-weight: 500;
+}
+.navbar .links li:hover {
+    cursor: pointer;
+    color: #333333;
 }
