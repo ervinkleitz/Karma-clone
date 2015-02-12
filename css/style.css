@@ -41,6 +41,10 @@ ol, ul {
     list-style: none;
 }
 /* End of Reset */
+body {
+    height: 1000px;
+}
+
 .navbar {
     background-color: #fff;
     position: fixed;
@@ -87,7 +91,10 @@ ol, ul {
     overflow: auto;
 	background-repeat: no-repeat;
 	background-position: 0 bottom;
-	background-size: cover;
+	-webkit-background-size: cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size: cover;
     border: 1px solid yellow;
     margin: 0 auto;
 }
@@ -134,7 +141,12 @@ ol, ul {
     cursor: pointer;
     background-color: #d85124;
 }
-.cases {
-    margin-top: 30rem;
+.cases > .content {
+    color: black;
+    padding-top: 10rem;
+    margin: 0 auto;
     border: 1px solid orange;
+    text-align: center;
+    font-size: 2.75rem;
+    font-weight: 300;
 }
