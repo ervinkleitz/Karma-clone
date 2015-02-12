@@ -106,5 +106,9 @@ ol, ul {
     width: 46rem;
 }
 .intro .content h3 {
-    
+    margin: 0 auto;
+    padding-top: 1.25rem;
+    font-size: 1.563rem;
+    text-align: center;
+    font-weight: 200;
 }
