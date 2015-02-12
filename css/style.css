@@ -83,10 +83,12 @@ ol, ul {
 }
 .intro {
     background-image: url("../images/first-background.jpg");
-	height: 45.938rem;
+    height: 599px;
+    overflow: auto;
 	background-repeat: no-repeat;
 	background-position: 0 bottom;
 	background-size: cover;
+
 }
 .intro .content {
 	margin: 0 auto;
@@ -95,9 +97,10 @@ ol, ul {
 	font-weight: 300;
 	height: 173px;
 	padding: 17.5rem;
+    width: 46rem;
 }
 .intro .content h1 {
-	text-align: center;
+	
 	font-size: 3.125rem;
 	font-weight: lighter;
 	text-align: center;
