@@ -80,14 +80,17 @@ min-width: 37.5rem;
 	color: #4c5058;
 	font-weight: 500;
 }
+
 .navbar .links .active {
     color: #4c5058;
     font-weight: 500;
 }
+
 .navbar .links li:hover {
     cursor: pointer;
     color: #333333;
 }
+
 .intro {
     background-image: url("../images/first-background.jpg");
     height: 45.938rem;
@@ -107,24 +110,26 @@ min-width: 37.5rem;
 	font-family: 'Roboto', sans-serif;
 	font-weight: 300;
 }
+
 .intro > .content h1 {
     margin-top: 17.5rem;
 	font-size: 3.125rem;
 	font-weight: 300;
 }
+
 .intro > .content h3 {
     margin-top: 1.25rem;
     font-size: 1.563rem;
     font-weight: 200;
 }
+
 .intro .content .button {
     color: white;
     text-align: center;
     margin-top: 1.563rem;
 }
 
-.intro .content .big-button{
-    
+.intro .content .big-button{    
     text-shadow: none;
     border-style: none;
     border-radius: 4px;
@@ -138,10 +143,12 @@ min-width: 37.5rem;
     font-weight: 300;
     margin: 0em;
 }
+
 .intro .big-button:hover {
     cursor: pointer;
     background-color: #d85124;
 }
+
 .cases {
     padding-bottom: 5rem;
     background-color: white;
@@ -149,19 +156,17 @@ min-width: 37.5rem;
     margin: 0 auto;
     font-family: 'Roboto', sans-serif;
 }
+
 .cases .content {
     margin-top: 7.875rem;
     color: #1d1e21;
     text-align: center;
 }
+
 .cases .content h2 {
     font-size: 2.75rem;
     margin: 1.625rem 0 3.125rem;
     font-weight: 300;
-}
-
-.cases .content {
-    
 }
 
 .cases .devices > li {
@@ -169,6 +174,7 @@ min-width: 37.5rem;
     float: left;
     width: 33.33333%
 }
+
 .cases .devices h3 {
     
     font-weight: 400;
@@ -186,7 +192,7 @@ min-width: 37.5rem;
 .social hr {
     border: 0;
     border-top: 1px solid #eaebec;
-    margin: 1.313rem 0;
+    margin: 1.313rem 10rem;
 }
 
 .social .content {
@@ -201,9 +207,11 @@ min-width: 37.5rem;
     margin: 1.25rem 5px;
     padding: 0.625rem 0;
 }
+
 .social .content li:hover{
     cursor: pointer;
 }
+
 .social .content .twitter {
     color: #55acee;
 }
@@ -213,8 +221,10 @@ min-width: 37.5rem;
 .social .content .instagram {
     color: #3f729b;
 }
-.footer .copy {
-font-size: 0.9rem;
-font-weight: light;
-color: #838994;
-margin-bottom: 5rem;
+
+.social .copy {
+    font-size: 0.9rem;
+    font-weight: 100;
+    color: #838994;
+    margin-bottom: 5rem;
+}
