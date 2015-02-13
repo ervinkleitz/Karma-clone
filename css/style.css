@@ -189,7 +189,11 @@ ol, ul {
 .social hr {
     border: 0;
     border-top: 1px solid #eaebec;
+<<<<<<< HEAD
     margin: 1.313rem 8rem;
+=======
+    margin: 1.313rem 10rem;
+>>>>>>> 1a134d03cdfc2d1f04012408ef379b759ec65758
 }
 
 .social h3 {
@@ -219,10 +223,17 @@ ol, ul {
     color: #3f729b;
 }
 
+<<<<<<< HEAD
 .social .copy h2 {
+=======
+.social .copy {
+>>>>>>> 1a134d03cdfc2d1f04012408ef379b759ec65758
     font-size: 0.9rem;
     font-weight: 100;
     color: #838994;
     margin-bottom: 5rem;
+<<<<<<< HEAD
     
+=======
+>>>>>>> 1a134d03cdfc2d1f04012408ef379b759ec65758
 }
