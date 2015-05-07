@@ -1,3 +1,3 @@
 # Karma-clone
 
-Karma website clone. Live site <a href="https://ervinkleitz.github.io/Karma-clone">here</a>.
+Karma website clone. Responsive live site <a href="https://ervinkleitz.github.io/Karma-clone">here</a>.
